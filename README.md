@@ -43,3 +43,45 @@
 **2.** ``[2, 3, 5, 8, 7, 9, 4, 15, 6]``\
 **3.** ``[2, 3, 4, 8, 7, 9, 5, 15, 6]``\
 **4.** ``[2, 3, 4, 5, 7, 9, 8, 15, 6]``
+
+## Proje 2
+### [16,21,11,8,12,22] -> Merge Sort
+
+- Yukarıdaki dizinin sort türüne göre aşamalarını yazınız.
+- Big-O gösterimini yazınız.
+
+### Çözüm
+
+- Yukarıdaki dizinin sort türüne göre aşamalarını yazınız.\
+**1.** ``[16, 21, 11]   [8, 12, 22]``\
+**2.** ``[16, 21]   [11]   [8, 12]   [22]``\
+**3.** ``[16]   [21]   [11]   [8]   [12]   [22]``\
+**3.** ``[16, 21]   [11]   [8, 12]   [22]``\
+**4.** ``[11, 16, 21]   [8, 12, 22]``\
+**5.** ``[8, 11, 12, 16, 21, 22]``
+
+- Big-O gösterimini yazınız.\
+**1.** Her adım sırasında işlem sayısı yarıya inerek devam ettiği için time complexity ***adım sayısı * işlem sayısı*** olur.\
+`` İşlem Sayısı = logn``\
+`` Adım Sayısı = n``\
+``O(nlogn)``
+
+## Proje 3
+### [7, 5, 1, 8, 3, 6, 0, 9, 4, 2] dizisinin Binary-Search-Tree aşamalarını yazınız.
+
+- Örnek: root x'dir. root'un sağından y bulunur. Solunda z bulunur vb.
+
+### Çözüm
+
+**1.**\
+  ``   7``\
+``   /\``\
+``  5  8``\
+`` /\   \``\
+``1  6   9``\
+``/\ ``\
+``0 3 ``\
+``  /\ ``\
+`` 2  4  ``
+
+ 
